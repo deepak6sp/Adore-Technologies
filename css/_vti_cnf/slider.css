@@ -1,0 +1,51 @@
+
+/* Easy Slider */
+
+	#slider{
+		margin:0;
+		padding:0;
+		position: relative;
+		left: 0px;
+		overflow: hidden;
+	}	
+	#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider li{ 
+		width:542px;
+		height:212px;
+		
+	}	
+	
+
+	
+	#prevBtn, #nextBtn{ 
+		display:block;
+		width:37px;
+		height:45px;
+		position:relative;
+		left:455px;
+		top:-12px;	
+		float: left;
+		margin-top: -37px;
+
+	}	
+	#nextBtn{ 
+		left:458px;
+		}														
+	#prevBtn a, #nextBtn a{  
+		display:block;
+		width:37px;
+		height:40px;
+		background:url(../images/arrow_left.png) no-repeat 0 0;	
+	}	
+	#prevBtn a:hover, #nextBtn a:hover {
+		background-position: left -40px;
+	}
+	#nextBtn a{ 
+		background:url(../images/arrow_right.png) no-repeat 0 0;	
+	}												
+
+/* // Easy Slider */
